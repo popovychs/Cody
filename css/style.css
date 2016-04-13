@@ -35,8 +35,11 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 10%;
     background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
 }
 
 li a {
@@ -59,10 +62,16 @@ li a:hover:not(.active) {
 /* End Vertical Menu */
 
 h1 {
-  text-align: center;
+  	text-align: center;
 	font-size: 3.5em;
 	color: #999999;
 	padding: 30px
+}
+
+h3{
+	text-align: center;
+	color: white;
+	padding: 5px;
 }
 
 h4{
@@ -91,6 +100,10 @@ h5{
 	margin: auto;
 	width: 776px;
 	height: 44px;
+}
+
+#menu{
+	margin: auto;
 }
 
 #footer{
