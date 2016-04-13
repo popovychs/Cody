@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {height: 100%}
+
+body {
+	background-color: #f2f2f2;
+	background-image: url("../img/iPad.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	margin: auto;
+	width: 900px;
+	height: 650px;
+}
+
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+
+a:hover {text-decoration: none;}
+
+p {	margin: 0 0 18px 18px}
+
+img { border: none;}
+
+input { vertical-align: middle}
+
+h1 {
+  text-align: center;
+	font-size: 3.5em;
+	color: #999999;
+	padding: 30px
+}
+
+h4{
+	text-align: center;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+h5{
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+#wrapper{
+	top: 0px;
+	background-color: green;
+	margin: auto;
+	margin-top: 34px;
+	width: 776px;
+	height: 584px;
+}
+
+#header{
+	background-color: blue;
+	margin: auto;
+	width: 776px;
+	height: 44px;
+}
+
+#footer{
+	background-color: black;
+	margin: auto;
+	position: absolute;
+	top: 582px;
+	width: 776px;
+	height: 36px;
+}
